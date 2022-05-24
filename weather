@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #1a64d6;
+        font-size: 34px;
+        line-height: 48px;
+        margin: 0;
+        font-weight: bold;
+        display: block;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 18px;
+        opacity: 0.7;
+        text-align: center;
+        font-family: monospace;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
+      h2 {
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        font-weight: 400;
+        font-size: 35px;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0em;
+      }
+      ul {
+        display: block;
+        list-style-type: disc;
+        font-family: Helvetica, Arial, sans-serif;
+        list-style-type: none;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        padding: 0;
+      }
+      li {
+        display: list-item;
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #fff;
+        color: #1a64d6;
+        cursor: pointer;
+      }
+      li:hover {
+        cursor: text;
+        background: rgba(244, 255, 232, 0.7);
+      }
+      .temperature-to {
+        font-weight: bold;
+      }
+      .name-who-coded {
+        font-weight: normal;
+        font-size: 18px;
+        opacity: 0.7;
+        text-align: center;
+        font-family: monospace;
+      }
+      .temperature-now {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #1a64d6;
+        font-size: 34px;
+        line-height: 48px;
+        margin: 0;
+        font-weight: bold;
+        display: block;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🌤</h1>
+    <div class="temperature-now">Currently 21° in Tokyo</div>
+    <h2>
+      <div>
+        13° /
+        <span class="temperature-to"> 23° </span>
+      </div>
+    </h2>
+    <ul>
+      <li>
+        <h3>🌧Tomorrow</h3>
+        <p>
+          10° /
+          <strong> 22° </strong>
+        </p>
+      </li>
+      <li>
+        <h3>🌥 Saturday</h3>
+        <p>
+          15° /
+          <strong> 17° </strong>
+        </p>
+      </li>
+      <li>
+        <h3>☀️ Sunday</h3>
+        <p>
+          25° /
+          <strong> 28° </strong>
+        </p>
+      </li>
+    </ul>
+    <button>Change city</button>
+    <p class="name-who-coded">Coded by Tetiana Mykhailenko</p>
+  </body>
+</html>
