@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: #f3da4c;
+        font-size: 42px;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: lighter;
+      }
+      h2 {
+        color: #cfd2b7;
+        text-align: center;
+        margin: 0 auto 20px;
+        font-weight: normal;
+      }
+      button {
+        display: block;
+        margin: 0 auto 20px;
+        padding: 1px 1px 6px 1px;
+        width: 125px;
+        height: 50px;
+        border-radius: 12%;
+        box-shadow: 10px 10px 10px rgba(72, 47, 34, 3);
+        border-style: inherit;
+        border: 1px solid black;
+        background: #f3da4c;
+        font-size: 20px;
+        font-weight: bold;
+        color: #5e6072;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #5e6072;
+        color: #f3da4c;
+        cursor: pointer;
+      }
+      a {
+        transition: all 200ms ease-in-out;
+        text-decoration: none;
+      }
+      a:link {
+        color: #f3d113;
+      }
+      a:hover {
+        color: #b98039;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        margin: 40px 10px 10px 10px;
+        padding: 0;
+        text-align: center;
+      }
+      li {
+        margin: 0 15px;
+      }
+      hr {
+        border-style: outset;
+        border-width: 1px;
+        overflow: visible;
+        background-color: #dadada;
+        box-shadow: 10px 10px 10px rgba(72, 47, 34, 3)
+      }
+      h3 {
+        text-align: center;
+      }
+      p {
+        color: #cfd2b7;
+        font-size: 10pt;
+        text-transform: lowercase;
+      }
+      body {
+        background-color: #5e6072;
+      }
+      img {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+      }
+      .priority {
+        color: #f3da4c;
+      }
+      .priority-semi-medium {
+        color: #f3da4c;
+      }
+      .priority-medium {
+        color: #f3da4c;
+      }
+      .priority-low {
+        color: #f3da4c;
+      }
+      .info {
+        color: #cfd2b7;
+      }
+      .shadow-image {
+        box-shadow: 5px 10px 10px rgba(72, 47, 34, 3);
+      }
+      .contact {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        font-size: smaller;
+        font-weight: bolder;
+        color: aliceblue;
+      }
+      .information {
+        text-align: center;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .email {
+        color: #f3d113;
+      }
+      .instagram {
+        color: #f3d113;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BOOGEYMAN FIGHTCLUB</h1>
+    <h2>training club</h2>
+    <button>book a trial</button>
+    <ul>
+      <li>
+        <strong>
+          <a
+            class="priority"
+            href="https://www.shecodes.io/students"
+            target="blank"
+          >
+            Mixed martial arts (MMA)
+          </a>
+        </strong>
+        <p>
+          Full-contact combat sport that allows a wide variety of fighting
+          techniques and skills from a mixture of other combat sports to be used
+          in competition.
+        </p>
+      </li>
+      <li>
+        <strong>
+          <a
+            class="priority-semi-medium"
+            href="https://www.shecodes.io/workshops"
+            target="blank"
+          >
+            Classic Boxing
+          </a>
+        </strong>
+        <p>
+          Classic Boxing Coach's boxing program will get you in fighting shape
+          even if you never want to get in the ring. If you do want to get in
+          the ring, you will be a force to be reckoned with.
+        </p>
+      </li>
+      <li>
+        <strong>
+          <a
+            class="priority-medium"
+            href="https://www.shecodes.io/stories"
+            target="blank"
+          >
+            Thai Boxing
+          </a>
+        </strong>
+        <p>
+          Sometimes referred to as Muay Thai, is a martial art and combat sport
+          that uses stand-up striking along with various clinching techniques.
+        </p>
+      </li>
+      <li>
+        <strong>
+          <a
+            class="priority-low"
+            href="https://www.shecodes.io/"
+            target="blank"
+          >
+            Jiu Jitsu
+          </a>
+        </strong>
+        <p>
+          Japanese martial arts and a system of close combat (unarmed or with a
+          minor weapon) that can be used in a defensive or offensive manner to
+          kill or subdue one or more weaponless or armed and armored opponents.
+        </p>
+      </li>
+    </ul>
+    <hr>
+  </hr>
+    <div class="information">
+        <a
+          href="https://www.shecodes.io/assets/story/story-6d86e4dd9cae878c4531dddb3dbc5c2792be083fb59814c27ad4254aca7ddd14.pdf"
+          target="blank"
+          class="info"
+        >
+          More info
+        </a>
+    </div>
+    <img class="shadow-image"
+      src="https://bodyart.fitness/en/wp-content/uploads/sites/4/2019/05/taiskij-box2.jpg"
+      target="blank"
+    />
+    <div class="contact">
+      <span class="email">
+      E-mail:
+      </span>
+      info@boogeyman.com
+     <span class="instagram">
+     Instagram </span>
+     @boogeyman.club
+    </div>
+  </body>
+</html>
